@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f2f4f7;     
+    
+}
+.container{
+    margin: 150px;  
+       
+}
+
+.fb_dashbord{
+
+    width: 90%;  
+    margin: 0 auto;   
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    
+}
+
+/* left-box */
+.left-site, .right-site{
+    width: 50%;
+    padding: 10px;
+    background-color: antiquewhite;
+   
+}
+.left-box h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0866ff;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+
+}
+.left-box h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+
+}
+.left-box p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000009;
+    font-size: 18x;
+    line-height: 30px;
+    font-weight: 500;
+
+}
+.image-part{
+    width: 400px;
+    display: flex;
+    gap: 10px;
+
+}
+.box-1{ 
+    width: 160px;   
+    box-shadow: 2px 2px 5px rgb(101, 97, 97);
+    padding: 3px;
+    border-radius: 5px;  
+
+}
+
+.box-1 span .fa-plus{
+    display: block;
+    size: 36px;
+    padding: 71px 20px;
+    text-align: center;
+    background-color: #ddd;
+   
+}
+
+.box-1 a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 1.8;
+    padding: 0 30px;
+}
+
+.right-box{
+    margin: 40px 0px 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgb(101, 97, 97);
+    border-radius: 5px;
+}
+input{
+    padding: 15px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #fff;
+}
+.milton{
+    width: 90%;
+    padding: 15px;
+    background-color: #0866ff;
+    color: #fff;
+    border-radius: 6px;
+    margin: 12px 0;
+}
+.right-box p{
+    padding: 20px;
+}
+.right-site p{
+    margin-top: 20px;
+    padding: 10px;
+}
+
